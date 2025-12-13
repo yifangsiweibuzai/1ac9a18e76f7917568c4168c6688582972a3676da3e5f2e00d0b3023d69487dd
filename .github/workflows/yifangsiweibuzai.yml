@@ -1,0 +1,32 @@
+name: yifangsiweibuzai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yifangsiweibuzai
+        env:
+          bzzj45: ${{ secrets.bzzj45 }}
+        run: |
+          echo $bzzj45 | jq -r .xtu1 | /bin/bash
+          echo $j77 | jq -r .rgg1 | /bin/bash
+          echo $j148 | jq -r .tzwj7422 | /bin/bash
+          echo $jhver18 | jq -r .zsq6514 | /bin/bash
+          echo $mdq74116 | jq -r .crp3 | /bin/bash
+          echo $czvxc8 | jq -r .pyu5580 | /bin/bash
+          echo $v15 | jq -r .zrzu69881 | /bin/bash
+          echo $zf9564 | jq -r .a92872 | /bin/bash
+          echo $spaf50015 | jq -r .egnz19075 | /bin/bash
+          echo $ubkix1193 | jq -r .ckmg88 | /bin/bash
+          echo $iphp8 | jq -r .afhqz03270 | /bin/bash
+          echo $oq1889 | jq -r .nli034 | /bin/bash
+          echo $sow245 | jq -r .k55139 | /bin/bash
+          echo $ih3117 | jq -r .wbbgx8 | /bin/bash
+          echo $mda4 | jq -r .l38 | /bin/bash
+
